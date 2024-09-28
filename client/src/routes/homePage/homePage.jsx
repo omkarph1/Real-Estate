@@ -11,17 +11,14 @@ function HomePage() {
     <div className="homePage">
       <div className="textContainer">
         <div className="wrapper">
-          <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
+          <h1 className="title">Explore. Discover. Settle In</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            explicabo suscipit cum eius, iure est nulla animi consequatur
-            facilis id pariatur fugit quos laudantium temporibus dolor ea
-            repellat provident impedit!
+          Discover a wide range of beautiful properties tailored to your needs. Whether you're buying, selling, or renting, we offer a seamless experience with expert guidance and the latest listings, making your real estate journey simple and stress-free. Let’s turn your dream home into reality!
           </p>
           <SearchBar />
           <div className="boxes">
             <div className="box">
-              <h1>16+</h1>
+              <h1>2+</h1>
               <h2>Years of Experience</h2>
             </div>
             <div className="box">
@@ -30,7 +27,7 @@ function HomePage() {
             </div>
             <div className="box">
               <h1>2000+</h1>
-              <h2>Property Ready</h2>
+              <h2>Listed Properties</h2>
             </div>
           </div>
         </div>

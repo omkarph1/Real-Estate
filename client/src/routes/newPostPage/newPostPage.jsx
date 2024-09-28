@@ -106,8 +106,8 @@ function NewPostPage() {
               <label htmlFor="type">Property</label>
               <select name="property">
                 <option value="apartment">Apartment</option>
-                <option value="house">House</option>
-                <option value="condo">Condo</option>
+                <option value="bunglow">Bunglow</option>
+                <option value="shop">Shop</option>
                 <option value="land">Land</option>
               </select>
             </div>
@@ -137,22 +137,22 @@ function NewPostPage() {
               />
             </div>
             <div className="item">
-              <label htmlFor="size">Total Size (sqft)</label>
+              <label htmlFor="size">Total Size (sq.mt.)</label>
               <input min={0} id="size" name="size" type="number" />
             </div>
             <div className="item">
-              <label htmlFor="school">School</label>
+              <label htmlFor="school">School Nearby (in meters)</label>
               <input min={0} id="school" name="school" type="number" />
             </div>
             <div className="item">
-              <label htmlFor="bus">bus</label>
+              <label htmlFor="bus">Bus Stop Nearby (in meters)</label>
               <input min={0} id="bus" name="bus" type="number" />
             </div>
             <div className="item">
-              <label htmlFor="restaurant">Restaurant</label>
+              <label htmlFor="restaurant">Restaurant Nearby (in meters)</label>
               <input min={0} id="restaurant" name="restaurant" type="number" />
             </div>
-            <button className="sendButton">Add</button>
+            <button className="sendButton">Add Property</button>
             {error && <span>error</span>}
           </form>
         </div>

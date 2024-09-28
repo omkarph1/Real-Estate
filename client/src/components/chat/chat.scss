@@ -44,7 +44,8 @@
     justify-content: space-between;
 
     .top {
-      background-color: #f7c14b85;
+      background-color: #1589ff;
+      color: white;
       padding: 20px;
       font-weight: bold;
       display: flex;
@@ -85,14 +86,14 @@
 
         span{
           font-size: 12px;
-          background-color: #f7c14b39;
+          background-color: lightblue;
           padding: 2px;
           border-radius: 5px;
         }
       }
     }
     .bottom {
-      border-top: 2px solid #f7c14b85;
+      border-top: 2px solid #1589ff;
       height: 60px;
       display: flex;
       align-items: center;
@@ -107,7 +108,8 @@
 
       button{
         flex:1;
-        background-color: #f7c14b85;
+        background-color: #1589ff;
+        color: white;
         height: 100%;
         border: none;
         cursor: pointer;

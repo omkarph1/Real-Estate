@@ -62,11 +62,11 @@
             }
             .price {
               padding: 5px;
-              background-color: rgba(254, 205, 81, 0.438);
+              background-color: lightblue;
               border-radius: 5px;
               width: max-content;
               font-size: 20px;
-              font-weight: 300;
+              font-weight: bold;
             }
           }
           .user {
@@ -77,7 +77,7 @@
             gap: 20px;
             padding: 0px 50px;
             border-radius: 10px;
-            background-color: rgba(254, 205, 81, 0.209);
+            background-color: #e5f1fc;
             font-weight: 600;
 
             @include sm {
@@ -102,7 +102,7 @@
   }
   .features {
     flex: 2;
-    background-color: #fcf5f3;
+    background-color: #e5f1fc;
     height: 100%;
     overflow-y: scroll;
 
@@ -201,7 +201,7 @@
           align-items: center;
           gap: 5px;
           background-color: white;
-          border: 1px solid #fece51;
+          border: 1px solid #1589ff;
           border-radius: 5px;
           cursor: pointer;
 
