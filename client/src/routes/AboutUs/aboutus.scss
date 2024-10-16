@@ -1,0 +1,109 @@
+.aboutUs {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+
+  p {
+    line-height: 1.8;
+    font-size: 18px;
+    color: #555;
+  }
+ 
+  // Hero Section
+  .hero-section {
+    position: relative;
+    height: 60vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.6);
+    }
+
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+
+      h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  // Who We Are Section
+  .who-we-are {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: left;
+
+    .box{
+      padding: 10px;
+      background-color: rgb(205, 233, 244);
+      border: #2980b9 solid 1px;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .core-values {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 20px;
+
+      li {
+        font-size: 18px;
+        margin-bottom: 10px;
+
+        strong {
+          color: #2980b9;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      padding: 30px 10px;
+
+      h2 {
+        font-size: 30px;
+      }
+
+      p, li {
+        font-size: 16px;
+      }
+    }
+  }
+
+  // Footer
+  .footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+  }
+}

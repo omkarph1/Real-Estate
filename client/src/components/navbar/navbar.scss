@@ -146,6 +146,7 @@ nav {
       }
 
       @include sm {
+        z-index: 999;
         a {
           display: initial;
         }
